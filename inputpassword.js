@@ -16,7 +16,6 @@
 				xmlns:mvc="sap.ui.core.mvc"
 				xmlns="sap.m">
 				<l:VerticalLayout
-					class="sapUiContentPadding"
 					width="100%">
 					<l:content>
 						<Input
