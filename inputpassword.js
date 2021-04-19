@@ -6,12 +6,15 @@
     let tmpl = document.createElement("template");
     tmpl.innerHTML = `
         <style>
+        slot {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
         </style>
         <slot name="content"></slot>
 
         <script id="oView" name="oView" type="sapui5/xmlview">
             <mvc:View
-			    controllerName="myView.Template"
 				xmlns:l="sap.ui.layout"
 				xmlns:mvc="sap.ui.core.mvc"
 				xmlns="sap.m">
