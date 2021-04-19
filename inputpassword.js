@@ -7,8 +7,7 @@
     tmpl.innerHTML = `
         <style>
         slot {
-            padding-top: 0px;
-            padding-bottom: 0px;
+            padding: 0px;
         }
         </style>
         <slot name="content"></slot>
@@ -19,6 +18,7 @@
 				xmlns:mvc="sap.ui.core.mvc"
 				xmlns="sap.m">
 				<l:VerticalLayout
+                    class="sapUiNoContentPadding"
 					width="100%">
 					<l:content>
 						<Input
