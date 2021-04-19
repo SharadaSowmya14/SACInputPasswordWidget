@@ -7,9 +7,7 @@
     tmpl.innerHTML = `
         <style>
         </style>
-        <div id="ui5_content" name="ui5_content">
-         <slot name="content"></slot>
-        </div>
+        <slot name="content"></slot>
 
         <script id="oView" name="oView" type="sapui5/xmlview">
             <mvc:View
@@ -24,7 +22,7 @@
 						<Input
 							id="passwordInput"
 							type="Password"
-							placeholder="Enter password ..." liveChange="onButtonPress"/>
+							placeholder="Password" liveChange="onButtonPress"/>
 					</l:content>
 				</l:VerticalLayout>
 			</mvc:View>
