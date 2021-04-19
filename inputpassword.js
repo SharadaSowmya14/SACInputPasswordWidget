@@ -24,7 +24,7 @@
 						<Input
 							id="passwordInput"
 							type="Password"
-							placeholder="Enter Password" liveChange="onButtonPress"/>
+							placeholder="Password" class="sapUiSmallMargin" liveChange="onButtonPress"/>
 					</l:content>
 				</l:VerticalLayout>
 			</mvc:View>
