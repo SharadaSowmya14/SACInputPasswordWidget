@@ -24,7 +24,7 @@
 						<Input
 							id="passwordInput"
 							type="Password"
-							placeholder="Password" liveChange="onButtonPress"/>
+							placeholder="Enter Password" liveChange="onButtonPress"/>
 					</l:content>
 				</l:VerticalLayout>
 			</mvc:View>
